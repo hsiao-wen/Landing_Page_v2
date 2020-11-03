@@ -1,0 +1,355 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cardo</title>
+    <meta name="keywords" content="券村,Cardo,卷村,票券,電子票券,餐券,優惠券,庫碰券,眷村,卡多">
+    <meta name="description" content="券村Cardo為全台灣首家履約保證電子票券平台，提供餐飲食品、美容舒壓、休閒玩樂、旅遊住宿、藝文展覽等電子票券，每張票都有履約保證，消費者買的安心、用的放心！">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<!--註解-->
+
+<body style="padding-top: 55px;">
+    <div class="container-fluid ">
+        <!--pl = padding left = 距離左側 pl-0 pr-0-->
+        <!--選單-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top align-items-center" style="background-color: #02275D">
+            <!--fixed-top 鎖定在畫面最上面，align-items-center 垂直對齊-->
+            <div class="navbar-brand ml-lg-5 ml-2 " href="#">
+                <!--LOGO圖-->
+                <img src="./img/icon_logo.png" class="" style="max-height: 3vh;" alt="">
+                <!-- style="" -->
+            </div>
+
+            <!--小畫面的選單按鈕-->
+            <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- 選單 -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <!--justify-content-end 靠右對齊-->
+                <div class="navbar-nav align-items-center" style="font-size: 18px; font: bold Arial;">
+                    <a class="nav-item nav-link mr-lg-5 active" href="#">我是用戶</a>
+                    <a class="nav-item nav-link mr-lg-5" href="#">我是商家</a>
+                    <a class="nav-item nav-link mr-lg-5" href="#">常見問題</a>
+                    <a class="nav-item nav-link mr-lg-5" href="#">聯絡我們</a>
+                </div>
+            </div>
+        </nav>
+
+        <!--主內容-->
+        <div class="row py-5"
+            style="background-image:url('./img/01.png'); background-size: cover; background-position:center;">
+            <!--左半邊-->
+            <div class="col-lg-6 sm-12 align-self-center">
+                <!-- align-self-center 垂直置中 -->
+                <!-- 行動票券帶著走 享受生活不厭券 -->
+                <div class="row">
+                    <div class="col-10 offset-1  col-sm-8 offset-sm-2  col-lg-8 offset-lg-3 ">
+                        <img src="./img/slogan.png" class="" style="width: 100%; height: auto;" alt="行動票券帶著走 享受生活不厭券">
+                    </div>
+                </div>
+                <!-- 我們提供各種電子票券 -->
+                <div class="row ">
+                    <div class="col-10 offset-1  col-sm-8 offset-sm-2  col-lg-8 offset-lg-3 ">
+                        <p
+                            style="font: normal normal bold 18px Microsoft JhengHei;  color:#474848; text-shadow: 0px 0px 6px #ffffff;">
+                            <!-- font-size: 2.5vmin; text-shadow陰影-->
+                            </br>
+                            <strong>我們提供各式服務及商品之電子票券，品項種類豐富，還有轉售、轉贈、團購等多樣功能。</strong>
+                        </p>
+                    </div>
+                </div>
+                <!-- bg-dark . bg-secondary -->
+
+                <br>
+                <!-- QRcode / 馬上逛逛 -->
+                <div class="row mt-lg-4">
+                    <!-- iphone -->
+                    <div class="col-lg-3 offset-lg-3 d-none d-lg-block">
+                        <div class="row pr-lg-3">
+                            <div class="col">
+                                <img src="./img/down_apple.png" class="" style="width: 100%; height: auto;" alt="">
+                            </div>
+                        </div>
+                        <div class="row pr-lg-3">
+                            <div class="col mt-3 ">
+                                <img src="./img/apple_qrcode.png" class="" style="width: 100%; height: auto;" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 安卓 -->
+                    <div class="col-lg-3 d-none d-lg-block">
+                        <div class="row pr-lg-3">
+                            <div class="col-12 ">
+                                <img src="./img/down_google.png" class="" style="max-width: 100%; max-height: 100%;"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="row pr-lg-3">
+                            <div class="col mt-3 ">
+                                <img src="./img/google_qrcode.png" class="" style="width: 100%; height: auto;" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 馬上逛逛 -->
+                    <div class="col-6 offset-3 col-lg-3 offset-lg-0  mb-3 mb-lg-0"
+                        style="display:flex; align-items:center;justify-content: center">
+                        <button type="button" class="btn btn-primary"
+                            style="font-size: 18px; width: 100%; background-color: #0F67B2;">馬上逛逛
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--右半邊-->
+            <div class="col-lg-6 sm-12 pr-xl-5 pb-4">
+                <!--style="display:flex; align-items:center;justify-content: center" 用flex水平垂直置中對齊-->
+                <img src="./img/phone.png" class="pr-xl-5 " style="max-width: 100%; max-height: 100%; " alt="">
+            </div>
+
+            <div class="w-100 "></div>
+            <!-- 手機 下載按鈕 -->
+            <div class="col-12 d-flex justify-content-around d-block d-lg-none">
+                <img src="./img/down_apple.png" class="" style="width: 30%; height: auto;" alt="">
+                <img src="./img/down_google.png" class="" style="width: 30%; height: auto;" alt="">
+
+            </div>
+
+            <div class="w-100"></div>
+            <!-- 電腦  -->
+            <div class="col d-flex align-items-center justify-content-center ">
+                <span class="d-none d-xl-block"
+                    style="font:normal normal medium 9px/12px Arabic UI Display ;font-size: 1vmin;  color: #000000;">
+                    Copyright © 2020 YUEN FOONG PAPER CO.,LTD.
+                </span>
+            </div>
+
+        </div>
+
+        <!-- 專屬票夾 標題-->
+        <div class="row mt-lg-5">
+            <!-- PC -->
+            <div class="col-12 d-flex justify-content-around">
+                <img src="./img/PC_title1.png" class="d-none d-lg-block py-5" style="width: 45%;" alt="">
+            </div>
+            <!-- 手機 -->
+            <div class="col-12 d-flex align-items-center justify-content-center">
+                <img src="./img/phone_title1.png" class="d-block d-lg-none pt-5" style="width: 55%;" alt="">
+            </div>
+        </div>
+
+        <!-- 轉屬票夾 內容 -->
+        <div class="row justify-content-around px-lg-5">
+            <div class="col-8 col-sm-3  ml-lg-5 pb-lg-4 text-center ">
+                <!-- border 邊框，rounded邊框導角，shadow陰影-->
+                <img src="./img/icon_ticket.png" class="pt-lg-5 pt-5 pt-lg-4 pb-3 pb-lg-5" style="width: 55%;" alt="">
+                <p style="font:PingFang HK ; font-size: 25px; font-weight:bold; ">會員專屬票夾</p>
+                <p style="font:PingFang HK ; font-size: 16px">隨時隨地購買票券<br>立即享受各種優惠服務</p>
+            </div>
+            <div class="col-8 col-sm-3 pb-lg-4 text-center ">
+                <img src="./img/icon_sendgift.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5" style="width: 55%;" alt="">
+                <p style="font:PingFang HK ; font-size: 25px; font-weight:bold; ">轉贈、轉售票券</p>
+                <p style="font:PingFang HK ; font-size: 16px">將票券轉贈／轉售給好友<br>還可附上心意小卡片</p>
+            </div>
+            <div class="col-8 col-sm-3 mr-lg-5 pb-lg-4 pb-4 text-center ">
+                <img src="./img/icon_pointcard.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5" style="width: 55%;" alt="">
+                <p style="font:PingFang HK ; font-size: 25px; font-weight:bold; ">會員卡與集點卡</p>
+                <p style="font:PingFang HK ; font-size: 16px">省去實體卡片攜帶保管<br>讓您出門不怕忘在家！</p>
+            </div>
+        </div>
+
+        <!-- 每日優惠 -->
+        <div class="row mt-lg-5 justify-content-around px-lg-5 text-light"
+            style="background-image:url('./img/02.png'); background-size: cover; background-position:right; ">
+            <!-- 標題 -->
+            <!-- PC -->
+            <div class="col-12 d-flex justify-content-around">
+                <img src="./img/PC_title2.png" class="d-none d-lg-block py-5" style="width: 40%;" alt="">
+            </div>
+            <!-- 手機 -->
+            <div class="col-12 d-flex align-items-center justify-content-center">
+                <img src="./img/phone_title2.png" class="d-block d-lg-none pt-5" style="width: 60%;" alt="">
+            </div>
+
+
+            <div class="w-100"></div>
+            <div class="col-8 col-sm-3  ml-lg-5 pb-lg-5 text-center ">
+                <!-- border 邊框，rounded邊框導角，shadow陰影-->
+                <img src="./img/icon_group.png" class="pt-lg-5 pt-5 pt-lg-4 pb-3 pb-lg-5" style="width: 55%;" alt="">
+                <p style="font:PingFang HK ; font-size: 25px; font-weight:bold;">團購享優惠</p>
+                <p style="font:PingFang HK ; font-size: 16px">開啟團購 分享好友<br>一起享有團購專屬優惠</p>
+            </div>
+            <div class="col-8 col-sm-3 pb-lg-5 text-center">
+                <img src="./img/icon_map.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5" style="width: 55%;" alt="">
+                <p style="font:PingFang HK ; font-size: 25px; font-weight:bold; ">門市推播</p>
+                <p style="font:PingFang HK ; font-size: 16px">通知您所在位置週邊<br>可使用票券的店家</p>
+            </div>
+            <div class="col-8 col-sm-3 mr-lg-5 pb-lg-5 pb-4 text-center ">
+                <img src="./img/icon_redpoints.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5" style="width: 55%;" alt="">
+                <p style="font:PingFang HK ; font-size: 25px; font-weight:bold; ">紅利點數換好禮</p>
+                <p style="font:PingFang HK ; font-size: 16px">消費即可累積紅利<br>限定好禮送給你！</p>
+            </div>
+        </div>
+
+        <!-- 合作品牌 -->
+        <div class="row mt-xl-5">
+            <div class="col-12 col-lg-6 offset-lg-3 d-flex justify-content-around pt-5 pt-lg-5 pb-3">
+                <img src="./img/PC_title3.png" class="" style="width: 40%;" alt="">
+            </div>
+        </div>
+        <!-- 合作品牌 內容-->
+        <div class="row pb-5">
+            <!-- justify-content-around  -->
+            <div class="col-12 col-lg-10 offset-lg-1 px-5">
+
+                <div class="row">
+                    <div class="col-4 col-lg-2 text-center mb-3">
+                        <img src="./img/logo/logo-22.png" class="img-fluid p-1" style="width:100%; height:auto;" alt="">
+                        <p style="font:normal normal bold 14px Arial; color: #1C2956;">永豐紙業</p>
+                    </div>
+                    <div class="col-4 col-lg-2 text-center mb-3">
+                        <img src="./img/logo/logo-17.png" class="img-fluid p-1" style="width:100%; height:auto;" alt="">
+                        <p style="font:normal normal bold 14px Arial; color: #1C2956;">永豐銀行</p>
+                    </div>
+                    <div class="col-4 col-lg-2 text-center mb-3">
+                        <img src="./img/logo/logo-18.png" class="img-fluid p-1" style="width:100%; height:auto;" alt="">
+                        <p style="font:normal normal bold 14px Arial; color: #1C2956;">寬宏藝術</p>
+                    </div>
+
+                    <div class="col-4 col-lg-2 text-center mb-3">
+                        <img src="./img/logo/logo-16.png" class="img-fluid p-1" style="width:100%; height:auto;" alt="">
+                        <p style="font:normal normal bold 14px Arial; color: #1C2956;">火鍋世家</p>
+                    </div>
+                    <div class="col-4 col-lg-2 text-center mb-3">
+                        <img src="./img/logo/logo-19.png" class="img-fluid p-1" style="width:100%; height:auto;" alt="">
+                        <p style="font:normal normal bold 14px Arial; color: #1C2956;">遇見秘境</p>
+                    </div>
+                    <div class="col-4 col-lg-2 text-center mb-3">
+                        <img src="./img/logo/logo-20.png" class="img-fluid p-1" style="width:100%; height:auto;" alt="">
+                        <p style="font:normal normal bold 14px Arial; color: #1C2956;">高仕高爾夫</p>
+                    </div>
+
+                    <div class="col-4 col-lg-2 text-center mb-3">
+                        <img src="./img/logo/logo-23.png" class="img-fluid p-1" style="width:100%; height:auto;" alt="">
+                        <p style="font:normal normal bold 14px Arial; color: #1C2956;">有心事業</p>
+                    </div>
+                    <div class="col-4 col-lg-2 text-center mb-3">
+                        <img src="./img/logo/logo-21.png" class="img-fluid p-1" style="width:100%; height:auto;" alt="">
+                        <p style="font:normal normal bold 14px Arial; color: #1C2956;">光之石</p>
+                    </div>
+                    <div class="col-4 col-lg-2 text-center mb-3">
+                        <img src="./img/logo/logo-24.png" class="img-fluid p-1" style="width:100%; height:auto;" alt="">
+                        <p style="font:normal normal bold 14px Arial; color: #1C2956;">阿霞飯店</p>
+                    </div>
+                    <div class="col-4 col-lg-2 text-center mb-3">
+                        <img src="./img/logo/logo-15.png" class="img-fluid p-1" style="width:100%; height:auto;" alt="">
+                        <p style="font:normal normal bold 14px Arial; color: #1C2956;">金樂實業</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- 相關連結 -->
+        <div class="row justify-content-center px-sm-5 pt-sm-5 mt-sm-5"
+            style="font-size: 12px; background-color: black;">
+            <!-- 1 -->
+            <div class="col-12 col-sm-3 " style="color: #FFFFFF;">
+                <ul class="nav flex-column mt-5  ">
+                    <li class="nav-item">
+                        <span class="nav-link active" style="font-size: 20px;font-weight:bold" href="#">券村
+                            Cardo</span>
+                    </li>
+                    <li class="nav-item">
+                        <span class="nav-link" href="#">功能說明</span>
+                    </li>
+                    <li class="nav-item">
+                        <span class="nav-link" href="#">客戶專區</span>
+                    </li>
+                    <li class="nav-item">
+                        <span class="nav-link disabled" href="#">網頁版</span>
+                    </li>
+                    <li class="nav-item">
+                        <span class="nav-link disabled" href="#">常見問題</span>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- 2 -->
+            <div class="col-12 col-sm-3" style="color: #FFFFFF;">
+                <ul class="nav flex-column mt-5 ">
+                    <li class="nav-item">
+                        <span class="nav-link" style="font-size: 20px;font-weight:bold" href="#">公司</span>
+                    </li>
+                    <li class="nav-item">
+                        <span class="nav-link" href="#">關於我們</span>
+                    </li>
+                    <li class="nav-item">
+                        <span class="nav-link" href="#">工作機會</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- 3 -->
+            <div class="col-12 col-sm-3 " style="color: #FFFFFF;">
+                <ul class="nav flex-column mt-5  ">
+                    <li class="nav-item">
+                        <span class="nav-link" style="font-size: 20px;font-weight:bold" href="#">支援服務</span>
+                    </li>
+                    <li class="nav-item">
+                        <span class="nav-link" href="#">說明中心</span>
+                    </li>
+                    <li class="nav-item">
+                        <span class="nav-link" href="#">聯絡我們</span>
+                    </li>
+                    <li class="nav-item">
+                        <span class="nav-link disabled" href="#">使用者條款與隱私權政策</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- 4 -->
+            <div class="col-12 col-sm-3 " style="color: #FFFFFF; ">
+                <ul class="nav flex-column mt-5 ">
+                    <li class="nav-item">
+                        <span class="nav-link" style="font-size: 20px;font-weight:bold" href="#">社群關注</span>
+                    </li>
+                    <li class="nav-item">
+                        <span class="nav-link" href="#">FaceBook</span>
+                    </li>
+                    <li class="nav-item">
+                        <span class="nav-link disabled" href="#">Instagram</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
