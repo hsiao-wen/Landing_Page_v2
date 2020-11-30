@@ -6,24 +6,56 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Cardo</title>
+    <title>券村Cardo - 最方便的電子票券平台</title>
     <meta name="keywords" content="券村,Cardo,卷村,票券,電子票券,餐券,優惠券,庫碰券,眷村,卡多">
     <meta name="description" content="券村Cardo為全台灣首家履約保證電子票券平台，提供餐飲食品、美容舒壓、休閒玩樂、旅遊住宿、藝文展覽等電子票券，每張票都有履約保證，消費者買的安心、用的放心！">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon.ico">
+    <style>
+        a {
+            color: #FFFFFF;
+        }
+
+        a:hover {
+            color: cadetblue;
+        }
+
+        h1 {
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+
+        h2 {
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+
+        h3 {
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+    </style>
 </head>
-<!--註解-->
+
 
 <body style="padding-top: 55px;">
     <div class="container-fluid " style="max-width: 1500px;">
-        <!--pl = padding left = 距離左側 pl-0 pr-0-->
+
         <!--選單-->
+
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top align-items-center" style="background-color: #002B60">
             <!--fixed-top 鎖定在畫面最上面，align-items-center 垂直對齊-->
+
             <div class="navbar-brand ml-lg-5 ml-2 " href="#">
                 <!--LOGO圖-->
-                <img src="./img/icon_logo.png" class="" style="max-height: 3vh;" alt="">
-                <!-- style="" -->
+                <a href="https://m.yfpcardo.com/#/" title="券村Cardo">
+                    <img src="./img/icon_logo.png" style="max-height: 3vh;" alt="券村Cardo">
+                </a>
+
             </div>
 
             <!--小畫面的選單按鈕-->
@@ -52,6 +84,7 @@
                 <!-- 行動票券帶著走 享受生活不厭券 -->
                 <div class="row">
                     <div class="col-10 offset-1  col-sm-8 offset-sm-2  col-lg-8 offset-lg-3 ">
+                        <h1>行動票券帶著走 享受生活不厭券</h1>
                         <img src="./img/slogan.png" class="" style="width: 100%; height: auto;" alt="行動票券帶著走 享受生活不厭券">
                     </div>
                 </div>
@@ -70,19 +103,23 @@
 
                 <br>
                 <!-- QRcode / 馬上逛逛 -->
+                <h2>立即下載</h2>
                 <div class="row mt-lg-4">
                     <!-- iphone -->
                     <div class="col-lg-3 offset-lg-3 d-none d-lg-block">
                         <div class="row pr-lg-3">
                             <div class="col">
-                                <img src="./img/down_apple.png" class="" style="width: 100%; height: auto;"
-                                    alt="立即到app store下載">
+                                <a href="https://apps.apple.com/tw/app/%E5%88%B8%E6%9D%91cardo/id1460119984"
+                                    title="download from app store">
+                                    <img src="./img/down_apple.png" style="width: 100%; height: auto;"
+                                        alt="立即到AppStore下載 券村Cardo">
+                                </a>
                             </div>
                         </div>
                         <div class="row pr-lg-3">
                             <div class="col mt-3 ">
                                 <img src="./img/apple_qrcode.png" class="" style="width: 100%; height: auto;"
-                                    alt="app store下載QR-code">
+                                    alt="AppStore下載 券村Cardo QR-code">
                             </div>
                         </div>
                     </div>
@@ -91,14 +128,17 @@
                     <div class="col-lg-3 d-none d-lg-block">
                         <div class="row pr-lg-3">
                             <div class="col-12 ">
-                                <img src="./img/down_google.png" class="" style="max-width: 100%; max-height: 100%;"
-                                    alt="立即到Play商店下載">
+                                <a href="https://play.google.com/store/apps/details?id=com.yfp.Cardo"
+                                    title="download from google play">
+                                    <img src="./img/down_google.png" style="max-width: 100%; max-height: 100%;"
+                                        alt="立即到Play商店下載">
+                                </a>
                             </div>
                         </div>
                         <div class="row pr-lg-3">
                             <div class="col mt-3 ">
                                 <img src="./img/google_qrcode.png" class="" style="width: 100%; height: auto;"
-                                    alt="Play商店下載QR-code">
+                                    alt="Play商店下載 券村Cardo QR-code">
                             </div>
                         </div>
                     </div>
@@ -106,7 +146,8 @@
                     <div class="col-6 offset-3 col-lg-3 offset-lg-0 mb-3 mb-lg-0 
                         d-flex align-items-center justify-content-center ">
                         <button type="button" class="btn btn-primary btn-lg"
-                            style="font-size: 18px; width: 100% ;height:60px ; background-color: #0F67B2;">馬上逛逛
+                            style="font-size: 18px; width: 100% ;height:60px ; background-color: #0F67B2;"
+                            onclick="location.href='https://m.yfpcardo.com/#/'">馬上逛逛
                         </button>
                     </div>
 
@@ -117,7 +158,8 @@
             <!--右半邊-->
             <div class="col-lg-6 sm-12 pr-xl-5 pb-4">
                 <!--style="display:flex; align-items:center;justify-content: center" 用flex水平垂直置中對齊-->
-                <img src="./img/phone.png" class="pr-xl-5 " style="max-width: 100%; max-height: 100%; " alt="介紹圖">
+                <img src="./img/phone.png" class="pr-xl-5 " style="max-width: 100%; max-height: 100%; "
+                    alt="券村Cardo介紹圖">
             </div>
 
             <div class="w-100 "></div>
@@ -142,6 +184,7 @@
 
         <!-- 專屬票夾 標題-->
         <div class="row mt-lg-5 ">
+            <h2>你的專屬票夾，功能多樣好方便</h2>
             <!-- PC -->
             <div class="col-12 d-flex justify-content-around">
                 <img src="./img/PC_title1.png" class="d-none d-lg-block py-5" style="width: 40%;" alt="你的專屬票夾 功能多樣好方便">
@@ -155,17 +198,20 @@
         <!-- 轉屬票夾 內容 -->
         <div class="row justify-content-around px-lg-5 align-items-start">
             <div class="col-8 col-sm-3 text-center pb-sm-4 pt-sm-4 ml-lg-5 ">
+                <h3>會員專屬票夾</h3>
                 <!-- border 邊框，rounded邊框導角，shadow陰影-->
                 <img src="./img/icon_ticket.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5" style="width: 44%;" alt="會員專屬票夾">
                 <p style="font:PingFang HK ; font-size: 24px; font-weight:bold; ">會員專屬票夾</p>
                 <p style="font:PingFang HK ; font-size: 16px">隨時隨地購買票<br>立即享受各種優惠服務</p>
             </div>
             <div class="col-8 col-sm-3 text-center pb-sm-4 pt-sm-4">
+                <h3>轉贈轉售票券</h3>
                 <img src="./img/icon_sendgift.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5" style="width: 44%;" alt="轉贈、轉售票券">
                 <p style="font:PingFang HK ; font-size: 24px; font-weight:bold; ">轉贈、轉售票券</p>
                 <p style="font:PingFang HK ; font-size: 16px">將票券轉贈／轉售給好友<br>還可附上心意小卡片</p>
             </div>
             <div class="col-8 col-sm-3 text-center pb-sm-4 pt-sm-4 pb-4 mr-lg-5 ">
+                <h3>會員卡與集點卡</h3>
                 <img src="./img/icon_pointcard.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5" style="width: 44%;" alt="會員卡與集點卡">
                 <p style="font:PingFang HK ; font-size: 24px; font-weight:bold; ">會員卡與集點卡</p>
                 <p style="font:PingFang HK ; font-size: 16px">省去實體卡片攜帶保管<br>讓您出門不怕忘在家！</p>
@@ -175,6 +221,7 @@
         <!-- 每日優惠 -->
         <div class="row mt-lg-5 justify-content-around px-lg-5 text-light"
             style="background-image:url('./img/02.png'); background-size: cover; background-position:right; ">
+            <h2>好康優惠，買越多賺越多</h2>
             <!-- 標題 -->
             <!-- PC -->
             <div class="col-12 d-flex justify-content-around pt-lg-5">
@@ -188,17 +235,20 @@
 
             <div class="w-100"></div>
             <div class="col-8 col-sm-3 text-center pb-sm-4 pt-sm-4 pb-lg-5  ml-lg-5 ">
+                <h3>團購享優惠</h3>
                 <!-- border 邊框，rounded邊框導角，shadow陰影-->
                 <img src="./img/icon_group.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5" style="width: 44%;" alt="團購享優惠">
                 <p style="font:PingFang HK ; font-size: 25px; font-weight:bold;">團購享優惠</p>
                 <p class="mb-lg-5" style="font:PingFang HK ; font-size: 16px">開啟團購 分享好友<br>一起享有團購專屬優惠</p>
             </div>
             <div class="col-8 col-sm-3 text-center pb-sm-4 pt-sm-4 pb-lg-5 ">
+                <h3>門市推播</h3>
                 <img src="./img/icon_map.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5" style="width: 44%;" alt="門市推播">
                 <p style="font:PingFang HK ; font-size: 25px; font-weight:bold; ">門市推播</p>
                 <p class="mb-lg-5" style="font:PingFang HK ; font-size: 16px">通知您所在位置週邊<br>可使用票券的店家</p>
             </div>
             <div class="col-8 col-sm-3 text-center pb-sm-4 pt-sm-4 pb-lg-5 mr-lg-5 ">
+                <h3>紅利點數換好禮</h3>
                 <img src="./img/icon_redpoints.png" class="pt-lg-5 pt-4 pb-3 pb-lg-5" style="width: 44%;" alt="紅利點數換好禮">
                 <p style="font:PingFang HK ; font-size: 25px; font-weight:bold; ">紅利點數換好禮</p>
                 <p class="mb-5" style="font:PingFang HK ; font-size: 16px">消費即可累積紅利<br>限定好禮送給你！</p>
@@ -208,6 +258,7 @@
         <!-- 合作品牌 標題-->
         <div class="row mt-xl-5 justify-content-center">
             <!-- PC -->
+            <h2>合作品牌</h2>
             <div class="col-12 d-flex justify-content-around ">
                 <img src="./img/PC_title3.png" class="d-none d-lg-block py-5" style="width: 17%;" alt="合作品牌">
             </div>
@@ -268,7 +319,7 @@
             </div>
 
         </div>
-
+        <h2>券村在手，美食娛樂通通有</h2>
         <!-- phone 券村在手-->
         <div class="row d-lg-none align-items-center mt-lg-5 py-4 px-1" style="background-color: #002B60;">
             <div class="col-7 offset-1 pl-0">
@@ -279,6 +330,7 @@
             </div>
         </div>
         <!-- 現在就下載 / pc 券村在手 -->
+
         <div class="row justify-content-center py-lg-5 "
             style="background-image:url('./img/03.png'); background-size: cover; background-position:center;">
 
@@ -286,16 +338,16 @@
             <div class="col-8 d-flex justify-content-center mt-lg-5">
                 <img src="./img/pc_title4.png" class="d-none d-lg-block" style="width: 60%;" alt="券村在手，美食娛樂通通有">
             </div>
-
             <div class="col-8 d-none d-lg-flex justify-content-center mt-lg-5 ">
-                <p style="font: normal normal bold 26px Arial; font-weight:bold; ">
-                    現在就下載券村Cardo App，讓我們給您全新的購物體驗！
-                </p>
+                <h3>現在就下載券村Cardo App，讓我們給您全新的購物體驗！</h3>
+                <p><strong style="font: normal normal bold 26px Arial; font-weight:bold; ">
+                        現在就下載券村Cardo App，讓我們給您全新的購物體驗！
+                    </strong></p>
             </div>
             <div class="col-12 d-lg-none mt-4 text-center">
-                <p style="font: normal normal bold 16px Arial; font-weight:bold; ">
-                    現在就下載券村Cardo App，<br>讓我們給您全新的購物體驗！
-                </p>
+                <p><strong style="font: normal normal bold 16px Arial; font-weight:bold; ">
+                        現在就下載券村Cardo App，<br>讓我們給您全新的購物體驗！
+                    </strong></p>
             </div>
             <div class="w-100 "></div>
 
@@ -364,27 +416,26 @@
 
     <div class="container-fluid ">
 
-        <!-- 相關連結 -->
+        <!-- pc 相關連結 -->
         <div class="row d-none d-lg-flex justify-content-center px-lg-5 pt-lg-5 "
             style="font-size: 12px; background-color: black;">
             <!-- 1 -->
             <div class="col-2 " style="color: #FFFFFF;">
                 <ul class="nav flex-column my-5  ">
                     <li class="nav-item">
-                        <span class="nav-link active" style="font-size: 20px;font-weight:bold" href="#">券村
-                            Cardo</span>
+                        <span class="nav-link active" style="font-size: 20px;font-weight:bold" href="#">券村 Cardo</span>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link" href="#">功能說明</span>
+                        <a class="nav-link disabled" href="#">功能說明</a>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link" href="#">客戶專區</span>
+                        <a class="nav-link" href="#">客戶專區</a>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link disabled" href="#">網頁版</span>
+                        <a class="nav-link " href="https://m.yfpcardo.com/#/">網頁版</a>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link disabled" href="#">常見問題</span>
+                        <a class="nav-link disabled" href="#">常見問題</a>
                     </li>
 
                 </ul>
@@ -396,10 +447,10 @@
                         <span class="nav-link" style="font-size: 20px;font-weight:bold" href="#">公司</span>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link" href="#">關於我們</span>
+                        <a class="nav-link" href="http://www.yfp.com.tw/">關於我們</a>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link" href="#">工作機會</span>
+                        <a class="nav-link" href="https://www.104.com.tw/company/hgrs6jc?jobsource=hi">工作機會</a>
                     </li>
                 </ul>
             </div>
@@ -410,13 +461,13 @@
                         <span class="nav-link" style="font-size: 20px;font-weight:bold" href="#">支援服務</span>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link" href="#">說明中心</span>
+                        <span class="nav-link disabled" href="#">說明中心</span>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link" href="#">聯絡我們</span>
+                        <span class="nav-link disabled" href="#">聯絡我們</span>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link disabled" href="#">使用者條款與隱私權政策</span>
+                        <a class="nav-link " href="https://m.yfpcardo.com/#/login/useAndPrivacyTerm">使用者條款與隱私權政策</a>
                     </li>
                 </ul>
             </div>
@@ -427,15 +478,15 @@
                         <span class="nav-link" style="font-size: 20px;font-weight:bold" href="#">社群關注</span>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link" href="#">FaceBook</span>
+                        <a class="nav-link" href="https://www.facebook.com/Cardo.Ticket">FaceBook</a>
                     </li>
                     <li class="nav-item">
                         <span class="nav-link disabled" href="#">Instagram</span>
                     </li>
                 </ul>
             </div>
-
         </div>
+
 
     </div>
 
