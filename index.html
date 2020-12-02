@@ -6,9 +6,9 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>券村Cardo - 最方便的電子票券平台</title>
+    <title>券村Cardo-電子票券 享受生活不厭券</title>
     <meta name="keywords" content="券村,Cardo,卷村,票券,電子票券,餐券,優惠券,庫碰券,眷村,卡多">
-    <meta name="description" content="券村Cardo為全台灣首家履約保證電子票券平台，提供餐飲食品、美容舒壓、休閒玩樂、旅遊住宿、藝文展覽等電子票券，每張票都有履約保證，消費者買的安心、用的放心！">
+    <meta name="description" content="券村Cardo提供各式服務及商品之電子票券，種類豐富多元，凡生活會使用到的相關票券都可以在券村裡找到。不限時間不限地點，購買立即享受各種優惠服務。">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="shortcut icon" href="favicon.ico">
@@ -18,7 +18,7 @@
         }
 
         a:hover {
-            color: cadetblue;
+            color: #2699FB;
         }
 
         h1 {
@@ -38,6 +38,27 @@
             height: 1px;
             overflow: hidden;
         }
+
+        #goshop {
+            font-size: 18px;
+            width: 100%;
+            height: 60px;
+            background-color: #0F67B2;
+        }
+
+        #goshop:hover {
+            background-color: #002B60;
+        }
+
+        .go_shop_btn {
+            border: 2px solid #000000;
+            border-radius: 5px;
+        }
+
+        .go_shop_btn:hover {
+            border: 2px solid #ffffff;
+            border-radius: 5px;
+        }
     </style>
 </head>
 
@@ -52,7 +73,7 @@
 
             <div class="navbar-brand ml-lg-5 ml-2 " href="#">
                 <!--LOGO圖-->
-                <a href="https://m.yfpcardo.com/#/" title="券村Cardo">
+                <a href='#allmain' title="券村Cardo">
                     <img src="./img/icon_logo.png" style="max-height: 3vh;" alt="券村Cardo">
                 </a>
 
@@ -76,7 +97,7 @@
         </nav>
 
         <!--主內容-->
-        <div class="row py-5"
+        <div id="allmain" class="row py-5"
             style="background-image:url('./img/01.png'); background-size: cover; background-position:center;">
             <!--左半邊-->
             <div class="col-lg-6 sm-12 align-self-center">
@@ -111,8 +132,8 @@
                             <div class="col">
                                 <a href="https://apps.apple.com/tw/app/%E5%88%B8%E6%9D%91cardo/id1460119984"
                                     title="download from app store">
-                                    <img src="./img/down_apple.png" style="width: 100%; height: auto;"
-                                        alt="立即到AppStore下載 券村Cardo">
+                                    <img class="go_shop_btn" src="./img/down_apple.png"
+                                        style="width: 100%; height: auto;" alt="立即到AppStore下載 券村Cardo">
                                 </a>
                             </div>
                         </div>
@@ -130,8 +151,8 @@
                             <div class="col-12 ">
                                 <a href="https://play.google.com/store/apps/details?id=com.yfp.Cardo"
                                     title="download from google play">
-                                    <img src="./img/down_google.png" style="max-width: 100%; max-height: 100%;"
-                                        alt="立即到Play商店下載">
+                                    <img class="go_shop_btn" src="./img/down_google.png"
+                                        style="width: 100%; height: auto; " alt="立即到Play商店下載">
                                 </a>
                             </div>
                         </div>
@@ -145,8 +166,7 @@
                     <!-- 馬上逛逛 -->
                     <div class="col-6 offset-3 col-lg-3 offset-lg-0 mb-3 mb-lg-0 
                         d-flex align-items-center justify-content-center ">
-                        <button type="button" class="btn btn-primary btn-lg"
-                            style="font-size: 18px; width: 100% ;height:60px ; background-color: #0F67B2;"
+                        <button id="goshop" type="button" class="btn btn-primary btn-lg"
                             onclick="location.href='https://m.yfpcardo.com/#/'">馬上逛逛
                         </button>
                     </div>
@@ -165,10 +185,12 @@
             <div class="w-100 "></div>
             <!-- 手機 下載按鈕 -->
             <div class="col-4 offset-1 pr-0 d-lg-none">
-                <img src="./img/down_apple.png" class="" style="width: 100%; height: auto;" alt="立即到app store下載">
+                <img class="go_shop_btn" src="./img/down_apple.png" class="" style="width: 100%; height: auto;"
+                    alt="立即到app store下載">
             </div>
             <div class="col-4 offset-2 pl-0 d-lg-none">
-                <img src="./img/down_google.png" class="" style="width: 100%; height: auto;" alt="立即到Play商店下載">
+                <img class="go_shop_btn" src="./img/down_google.png" class="" style="width: 100%; height: auto;"
+                    alt="立即到Play商店下載">
             </div>
 
             <div class="w-100"></div>
@@ -352,14 +374,16 @@
             <div class="w-100 "></div>
 
             <div class="col-4 col-lg-2 px-lg-4 mb-lg-5 mt-lg-4 mb-4">
-                <img src="./img/down_apple.png" class="" style="width: 100%; height: auto;" alt="立即到app store下載">
+                <img class="go_shop_btn" src="./img/down_apple.png" class="" style="width: 100%; height: auto;"
+                    alt="立即到app store下載">
             </div>
 
             <div class="col-4 col-lg-2 px-lg-4 mb-lg-5 mt-lg-4 mb-4">
-                <img src="./img/down_google.png" class="" style="width: 100%; height: auto;" alt="立即到Play商店下載">
+                <img class="go_shop_btn" src="./img/down_google.png" class="" style="width: 100%; height: auto;"
+                    alt="立即到Play商店下載">
             </div>
             <div class="col-lg-2 d-none d-lg-flex px-lg-4 mb-lg-5 mt-lg-4">
-                <img src="./img/goto_web.png" class="" style="width: 100%; height: auto;" alt="馬上逛逛"">
+                <img class="go_shop_btn" src="./img/goto_web.png" class="" style="width: 100%; height: auto;" alt="馬上逛逛"">
             </div>
 
 
@@ -385,7 +409,7 @@
                 </div>
 
                 <div class="col-6 p-2 pl-5 mb-3">
-                    <button type="button" class="btn btn-block btn-secondary text-center"
+                    <button id="btn_to_pc" type="button" class="btn btn-block btn-secondary text-center"
                         style="background-color: #919191; border:0px">
                         <img src="./img/icon_pc.png" class="p-1" style="width: 30px;">
                         <span style="font-size: 14px;">&ensp;PC網頁版</span>
@@ -500,6 +524,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#btn_to_pc").click(function () {
+                $('head').append('<meta name="viewport" content="width=1280, initial-scale=1, shrink-to-fit=no">');
+            });
+        });
+
+
+    </script>
 
 </body>
 
