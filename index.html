@@ -64,7 +64,7 @@
 </head>
 
 
-<body style="padding-top: 55px;">
+<body id="home" style="padding-top: 55px;">
     <div class="container-fluid " style="max-width: 1500px;">
 
         <!--選單-->
@@ -74,7 +74,7 @@
 
             <div class="navbar-brand ml-lg-5 ml-2 " href="#">
                 <!--LOGO圖-->
-                <a href='#allmain' title="券村Cardo">
+                <a id="logo" href="#home" title="券村Cardo">
                     <img src="./img/icon_logo.png" style="max-height: 3vh;" alt="券村Cardo">
                 </a>
 
@@ -540,7 +540,7 @@
         crossorigin="anonymous"></script>
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $("#btn_to_pc").click(function () {
@@ -550,7 +550,24 @@
 
 
     </script>
+    <script>
+        $(function () {
 
+            $("a[href^='#']").on('click', function (e) {
+
+                var $target = $($(this).attr("href"));
+
+                if ($target.length) {
+                    e.preventDefault();
+                    $("html, body").animate({
+                        scrollTop: $target.offset().top
+                    }, 1000);
+                }
+            });
+
+            return false;
+        });
+    </script>
 </body>
 
 </html>
