@@ -80,10 +80,10 @@
                 <div id="app">
                     <input type="text" id="name" class="form-control w-100 rounded-0 my-2" placeholder="姓名"
                         v-model="name">
-                    <input type="text" id="aaaa" class="form-control w-100 rounded-0 my-2"
-                        placeholder="產業類別（若您是一般消費者請略過）" v-model="phone">
-                    <input type="text" id="bbbb"" class=" form-control w-100 rounded-0 my-2"
-                        placeholder="公司名稱（若您是一般消費者請略過）" v-model="phone">
+                    <input type="text" id="industry" class="form-control w-100 rounded-0 my-2"
+                        placeholder="產業類別（若您是一般消費者請略過）" v-model="industry">
+                    <input type="text" id="company" class=" form-control w-100 rounded-0 my-2"
+                        placeholder="公司名稱（若您是一般消費者請略過）" v-model="company">
                     <input type="tel" id="phone" class="form-control w-100 rounded-0 my-2" placeholder="連絡電話"
                         v-model="phone">
                     <input type="email" id="email" class="form-control w-100 rounded-0 my-2" placeholder="電子信箱"
@@ -259,12 +259,15 @@
             return false;
         });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
     <script>
         var app = new Vue({ //建立new Vue並放入一個物件
             el: '#app',    // HTML用來與Vue應用程式綁定的方法，也可用class綁定
             data: {    //data後面也是跟著一個物件
                 name: '',
                 phone: '',
+                industry: '',
+                company: '',
                 email: '',
                 content: ''
             },
@@ -277,6 +280,8 @@
                         data: {
                             "name": vm.name,
                             "phone": vm.phone,
+                            "industry": vm.industry,
+                            "company": vm.company,
                             "email": vm.email,
                             "content": vm.content
                         },
